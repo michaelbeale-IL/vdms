@@ -53,6 +53,8 @@ jobs:
     secrets: inherit
 
   Update:
+    permissions:
+        contents: write
     # name: Lint & Update Reports
     needs: [Testing, Results]
     if: ${{ always() }} 
