@@ -12,7 +12,7 @@ on:
           description: "Status of coverage tests (passed/failed)"
           type: string
 
-permissions: {}
+# permissions: {}
 
 jobs:
     commit_job:
